@@ -28,7 +28,7 @@ public class ConsultaApi {
      * @param from La moneda de origen (ej. USD)
      * @param to La moneda de destino (ej. ARS)
      * @return La tasa de conversión entre las monedas
-     */
+     */ 
     public static double getConversionRate(String from, String to) {
         // Construye la URL completa para hacer la solicitud a la API
         String url = BASE_URL + API_KEY + "/latest/" + from;
