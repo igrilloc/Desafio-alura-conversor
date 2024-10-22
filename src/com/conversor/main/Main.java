@@ -3,7 +3,6 @@ package com.conversor.main;
 import com.conversor.requestApi.ConsultaApi;
 import java.util.InputMismatchException;
 import java.util.Scanner;
- 
 
 public class Main {
 
